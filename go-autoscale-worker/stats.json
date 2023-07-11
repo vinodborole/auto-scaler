@@ -1,0 +1,101 @@
+{
+    "message": "stats",
+    "instance_id": "61a0893f",
+    "cpu": {},
+    "cells": {
+        "0": {
+            "dl_sched_users_min": 0,
+            "dl_sched_users_max": 0,
+            "dl_sched_users_avg": 0,
+            "ul_sched_users_min": 0,
+            "ul_sched_users_max": 0,
+            "ul_sched_users_avg": 0,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "ue_count": 1,
+            "rxtx_delay": {
+                "min": 1.995,
+                "max": 3.314,
+                "avg": 2.82,
+                "sd": 0.25
+            }
+        },
+        "1": {
+            "dl_sched_users_min": 0,
+            "dl_sched_users_max": 0,
+            "dl_sched_users_avg": 0,
+            "ul_sched_users_min": 0,
+            "ul_sched_users_max": 0,
+            "ul_sched_users_avg": 0,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "ue_count": 1,
+            "rxtx_delay": {
+                "min": 1.994,
+                "max": 3.308,
+                "avg": 2.814,
+                "sd": 0.25
+            }
+        },
+        "2": {
+            "dl_sched_users_min": 0,
+            "dl_sched_users_max": 0,
+            "dl_sched_users_avg": 0,
+            "ul_sched_users_min": 0,
+            "ul_sched_users_max": 0,
+            "ul_sched_users_avg": 0,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "ue_count": 1,
+            "rxtx_delay": {
+                "min": 2.037,
+                "max": 3.321,
+                "avg": 2.829,
+                "sd": 0.254
+            }
+        }
+    },
+    "counters": {
+        "messages": {
+            "prach": 3,
+            "rrc_connection_request": 3,
+            "rrc_connection_setup": 3,
+            "rrc_connection_setup_complete": 3,
+            "rrc_ul_information_transfer": 9,
+            "rrc_dl_information_transfer": 9,
+            "rrc_security_mode_command": 3,
+            "rrc_security_mode_complete": 3,
+            "rrc_ue_capability_enquiry": 3,
+            "rrc_ue_capability_information": 3,
+            "rrc_connection_reconfiguration": 3,
+            "rrc_connection_reconfiguration_complete": 3,
+            "rrc_connection_release": 3,
+            "nas_attach_request": 3,
+            "nas_attach_accept": 3,
+            "nas_attach_complete": 3,
+            "nas_authentication_request": 3,
+            "nas_authentication_response": 3,
+            "nas_security_mode_command": 3,
+            "nas_security_mode_complete": 3,
+            "nas_emm_information": 3
+        },
+        "errors": {}
+    },
+    "message_id": "id#1",
+    "time": 103.486
+}

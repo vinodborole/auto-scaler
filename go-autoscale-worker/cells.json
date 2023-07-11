@@ -1,0 +1,115 @@
+{
+    "message": "ue_get",
+    "ue_list": [
+        {
+            "imsi": "001010123456001",
+            "ue_id": 1,
+            "ue_sub_id": 1,
+            "category": 6,
+            "timing_advance": 3,
+            "rnti": 61,
+            "power_on": true,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "idle",
+            "cells": [
+                {
+                    "cqi": 0,
+                    "ri": 1,
+                    "path_loss": 33.018985748291016,
+                    "index": 0,
+                    "pci": 1,
+                    "rsrp": -31.026535034179688,
+                    "rsrq": -3.2696533203125,
+                    "snr": 46.1647834777832
+                }
+            ],
+            "emm_state": "registered",
+            "pdn_list": [
+                {
+                    "apn": "default.mnc001.mcc001.gprs",
+                    "ipv4": "192.168.2.2"
+                }
+            ]
+        },
+        {
+            "imsi": "001010123456002",
+            "ue_id": 2,
+            "ue_sub_id": 2,
+            "category": 6,
+            "timing_advance": 3,
+            "rnti": 62,
+            "power_on": true,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "idle",
+            "cells": [
+                {
+                    "cqi": 0,
+                    "ri": 1,
+                    "path_loss": 28.980712890625,
+                    "index": 1,
+                    "pci": 2,
+                    "rsrp": -21.989513397216797,
+                    "rsrq": -3.355884552001953,
+                    "snr": 50.966636657714844
+                }
+            ],
+            "emm_state": "registered",
+            "pdn_list": [
+                {
+                    "apn": "default.mnc001.mcc001.gprs",
+                    "ipv4": "192.168.2.6"
+                }
+            ]
+        },
+        {
+            "imsi": "001010123456003",
+            "ue_id": 3,
+            "ue_sub_id": 3,
+            "category": 6,
+            "timing_advance": 2,
+            "rnti": 63,
+            "power_on": true,
+            "dl_bitrate": 0,
+            "ul_bitrate": 0,
+            "dl_rx_count": 0,
+            "dl_retx_count": 0,
+            "dl_err_count": 0,
+            "ul_tx_count": 0,
+            "ul_retx_count": 0,
+            "rrc_state": "idle",
+            "cells": [
+                {
+                    "cqi": 0,
+                    "ri": 1,
+                    "path_loss": 28.64423370361328,
+                    "index": 2,
+                    "pci": 3,
+                    "rsrp": -22.657535552978516,
+                    "rsrq": -3.274303436279297,
+                    "snr": 50.08906173706055
+                }
+            ],
+            "emm_state": "registered",
+            "pdn_list": [
+                {
+                    "apn": "default.mnc001.mcc001.gprs",
+                    "ipv4": "192.168.2.10"
+                }
+            ]
+        }
+    ],
+    "message_id": "id#1",
+    "time": 25.542
+}

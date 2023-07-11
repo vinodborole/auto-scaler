@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./proto";
+
+package product;
+
+service ProductInfo {
+    rpc searchProducts(SearchQuery) returns (stream Product);
+}
+
+message ProductID {
+    string value = 1;
+}
+
+message Product {
+    string id = 1;
+    string name = 2;
+    string description = 3;
+    float price = 4;
+}
+
+message SearchQuery{
+    string value = 1;
+}
